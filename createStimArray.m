@@ -1,5 +1,10 @@
 function [varargout] = createStimArray(path)
 % CREATESTIMARRAY Create iterable array of stimuli and/or stimuli pointers
+%
+% S = CREATSTIMARRAY(path)
+%
+% Created on 09/09/2024 (MM/DD/YYY)
+% Authors: Will Decker (will.decker@gatech.edu)
 
 % check that arg is string type and points to a valid file
 assert(ischar(path) || isstring(path), 'Path must be a string or character array.');
